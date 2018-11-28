@@ -60,7 +60,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40742368-6C25-49EA-A095-63114BA0EA2B}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">俄罗斯方块.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/俄罗斯方块.exe</Property>
@@ -70,7 +70,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/俄罗斯方块.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9A14D9E6-7C74-4BDF-9513-D04FDC2E3B54}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3DBD5A57-1C86-4BC8-95B3-B2CD04F84489}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/俄罗斯方块.vi</Property>
@@ -94,8 +94,11 @@
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/俄罗斯方块.ico</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/俄罗斯方块-初始坐标.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">俄罗斯方块</Property>
 				<Property Name="TgtF_internalName" Type="Str">俄罗斯方块</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
