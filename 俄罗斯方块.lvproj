@@ -13,6 +13,7 @@
 		<Item Name="俄罗斯方块-初始坐标.vi" Type="VI" URL="../俄罗斯方块-初始坐标.vi"/>
 		<Item Name="俄罗斯方块-存储形状数组.vi" Type="VI" URL="../俄罗斯方块-存储形状数组.vi"/>
 		<Item Name="俄罗斯方块-绘制网格.vi" Type="VI" URL="../俄罗斯方块-绘制网格.vi"/>
+		<Item Name="俄罗斯方块-绘制文本.vi" Type="VI" URL="../俄罗斯方块-绘制文本.vi"/>
 		<Item Name="俄罗斯方块-是否可操作.vi" Type="VI" URL="../俄罗斯方块-是否可操作.vi"/>
 		<Item Name="俄罗斯方块-消除满行.vi" Type="VI" URL="../俄罗斯方块-消除满行.vi"/>
 		<Item Name="俄罗斯方块.ico" Type="Document" URL="../俄罗斯方块.ico"/>
@@ -77,7 +78,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/俄罗斯方块.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3DBD5A57-1C86-4BC8-95B3-B2CD04F84489}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ABE3B7EC-3EC6-426F-95B4-90CC3FC37616}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/俄罗斯方块.vi</Property>
@@ -105,7 +106,11 @@
 				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/俄罗斯方块-初始坐标.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/俄罗斯方块-绘制文本.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">俄罗斯方块</Property>
 				<Property Name="TgtF_internalName" Type="Str">俄罗斯方块</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2018 </Property>
